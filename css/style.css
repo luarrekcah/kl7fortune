@@ -6,6 +6,9 @@ body {
 
 #bootstrap-override{
     background: rgba(182, 48, 48, 0.89);
+    background-image: url(https://images.ctfassets.net/gfvfx5dc97y3/46qhgbZLdZhTCLA3z27hAl/f5491b46e51c81769a70ac3e840b5a70/fortune_house.redtiger.background.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 img {
