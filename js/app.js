@@ -27,17 +27,17 @@ function updateTime() {
 }
 button.addEventListener("click", (t) => {
   Swal.fire({
-    title: 'Atenção!',
-    text: 'O sinal só funcionará na plataforma abaixo \n ↓',
-    icon: 'info',
-    confirmButtonText: 'Entendi',
+    title: "Atenção!",
+    text: "O sinal só funcionará na plataforma abaixo \n ↓",
+    icon: "info",
+    confirmButtonText: "Entendi",
     customClass: {
-        popup: 'my-popup-class',
-        // adicionando a classe personalizada ao popup
-        title: 'my-title-class',
-        content: 'my-content-class'
-    }
-});
+      popup: "my-popup-class",
+      // adicionando a classe personalizada ao popup
+      title: "my-title-class",
+      content: "my-content-class",
+    },
+  });
   t.preventDefault(),
     (button.disabled = !0),
     (output.innerText = getRandomNumber(5, 10)),
